@@ -1,8 +1,15 @@
 @media only screen and (max-width: 1000px) {
     .carousel {
-        height: 250px;
+        height: 375px;
 
     }
+}
+    @media only screen and (max-width: 500px) {
+        .carousel {
+            height: 325px;
+    
+        }
+
 }
 .carousel-inner{
     height: 700px;
@@ -22,22 +29,14 @@ body {
     object-position: center;
 }
 
-.textHeader {
-    
-}
-
-.sign {
-
-}
-
 button {
     width: 100px;
 }
 
 .profile-image {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    width: 45px;
+    height: 55px;
+    border-radius: 25%;
     object-fit: cover;
     object-position: center;
 
