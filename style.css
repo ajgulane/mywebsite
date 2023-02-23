@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1000px) {
+    .carousel {
+        height: 250px;
+
+    }
+}
 .carousel-inner{
     height: 700px;
 }
