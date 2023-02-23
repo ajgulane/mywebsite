@@ -1,23 +1,19 @@
-@media only screen and (max-width: 1000px) {
-    .carousel {
-        height: 675px;
-
-    }
-}
-    @media only screen and (max-width: 500px) {
-        .carousel {
-            height: 675px;
-    
-        }
-
-}
-.carousel-inner{
-}
-
 .carousel-item .image {
     border: 2px solid rgb(0, 0, 0);
     width: auto;
     height: 700px;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel {
+        height: 375px;
+
+    }
+
+    .carousel-item .image {
+        width: auto;
+        height: 400px;
+    }
 
 }
 
@@ -47,4 +43,11 @@ button {
     border: 3px;
     border-color: white;
     border-width: 3px;
+    margin: none;
+    padding: none;
+    margin-top: 18px;
+}
+
+.navbar-height {
+    height: 55px;
 }
