@@ -1,22 +1,23 @@
 @media only screen and (max-width: 1000px) {
     .carousel {
-        height: 375px;
+        height: 675px;
 
     }
 }
     @media only screen and (max-width: 500px) {
         .carousel {
-            height: 325px;
+            height: 675px;
     
         }
 
 }
 .carousel-inner{
-    height: 700px;
 }
 
 .carousel-item .image {
     border: 2px solid rgb(0, 0, 0);
+    width: auto;
+    height: 700px;
 
 }
 
