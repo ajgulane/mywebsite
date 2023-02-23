@@ -7,111 +7,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Jays Website</title>
 </head>
 
-<body>
+<body class="bg-black">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Jays</a>
+            <a class="navbar-brand" href="#Jays">Jays</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="sign navbar navbar-expand-lg navbar-dark bg-dark">
+                    <ul class="nav-item">
+                        <button class="btn btn-primary">Sign In</button>
+                    </ul>
+                    <ul class="nav-item">
+                        <button class="btn btn-primary">Sign Up</button>
+                    </ul>
+                    <ul class="profile">
+                        <img src="images/image1.jpg" class="profile-image image d-block w-100"
+                            alt="Default Social Media Profile">
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
+
     <main>
-        <h1 class="text-center my-2">Welcome to my website</h1>
-        <p class="text-center text-muted">This website is for learning purpose only, maybe someday i will publish my projects.</p>
-        <div class="container">
-            <div class="row my-5">
-                <div class="col d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">My First Project</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="testsite/site1.html" class="btn btn-primary">Go to project</a>
+
+        <div class="text-center container-sm my-5">
+            <h1>Welcome Visitor</h1>
+            <p class="text-muted">This Website Is For Practice Purpose Only You Can Contact Me @ajgulane1@gmail.com</p>
+
+            <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="images/image1.jpg" class="image d-block w-100" alt="anime">
+                        <div class="carousel-caption d-block textHeader">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
-                      </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">My Portfolio</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="testsite/site2.html" class="btn btn-primary">Go to project</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <img src="https://picsum.photos/200" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">My Third Project</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="testsite/site3.html" class="btn btn-primary">Go to project</a>
-                        </div>
-                      </div>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col">
-                    <h1 class="my-2">Get in touch</h1>
-                    <p class="text-muted">Questions? dont be afraid to contact me</p>
-                    <form>
-                    <div class=" form-floating mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
                     </div>
-                    <div class=" form-floating mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Write a message">
-                        <label for="exampleFormControlTextarea1" class="form-label">Write a message</label>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/image2.jpg" class="image d-block w-100" alt="anime villain">
                     </div>
-                    <select class="form-select my-2" aria-label="Default select example">
-                        <option selected>Available Service</option>
-                        <option value="1">Service</option>
-                        <option value="2">Subscribe</option>
-                        <option value="3">Other</option>
-                      </select>
-                    <button type="button" class="btn btn-primary">Send</button>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/image3.jpg" class="image d-block w-100" alt="cool anime wallpaper">
+                    </div>
                 </div>
-            </form>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col">
+                    <h1 class="my-2">Get in touch!</h1>
+                    <p class="text-muted">Questions? dont be afraid to contact me</p>
+                    <form>
+                        <div class=" form-floating mb-3">
+                            <input type="email" class="bg-black form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        </div>
+                        <div class=" form-floating mb-3">
+                            <input type="email" class="bg-black form-control" id="exampleFormControlInput2"
+                                placeholder="Write a message">
+                            <label for="exampleFormControlTextarea1" class="form-label">Write a message</label>
+                        </div>
+                        <select class="bg-info text-black form-select my-2" aria-label="Default select example">
+                            <option selected>Available Service</option>
+                            <option value="1">Website Developement</option>
+                            <option value="2">Application Developement</option>
+                            <option value="3">Other</option>
+                        </select>
+                        <button type="button" class="btn btn-danger btn-outline-light">Send</button>
+                </div>
+                </form>
+            </div>
+        </div>
+
     </main>
+
     <div class="footer bg-dark mt-auto py-3">
         <div class="container">
             <span class="text-muted">

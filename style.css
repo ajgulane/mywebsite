@@ -1,0 +1,44 @@
+.carousel-inner{
+    height: 700px;
+}
+
+.carousel-item .image {
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+body {
+    color: white;
+}
+
+.image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.textHeader {
+    
+}
+
+.sign {
+
+}
+
+button {
+    width: 100px;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.profile {
+    border: 3px;
+    border-color: white;
+    border-width: 3px;
+}
