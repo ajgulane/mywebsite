@@ -31,12 +31,10 @@ button {
 }
 
 .profile-image {
-    width: 45px;
-    height: 55px;
+    width: 10px;
+    height: 70px;
     border-radius: 25%;
-    object-fit: cover;
-    object-position: center;
-
+    object-fit: fill;
 }
 
 .profile {
@@ -46,8 +44,4 @@ button {
     margin: none;
     padding: none;
     margin-top: 18px;
-}
-
-.navbar-height {
-    height: 55px;
 }
