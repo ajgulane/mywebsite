@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.calculatorBody {
+    font-size: 40px;
+    display:inline-block;
+    justify-content: center;
+}
+
+button {
+    width: 115px;
+    height: 115px;
+}
+
+.displayBox {
+    width: 460px;
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    text-align: end;
+    padding-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+div {
+    border: 3px;
+}
+
