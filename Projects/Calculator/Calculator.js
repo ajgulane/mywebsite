@@ -21,7 +21,8 @@ let number1 = '';
 let number2 = '';
 let operator = '';
 let result;
-
+let operators = operator.charAt(0);
+ 
 seven.addEventListener("click", function () {
     displayBox.innerHTML += '7';
     if (operator === '/' || operator === '*' || operator === '-' || operator === '+') {
