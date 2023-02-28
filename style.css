@@ -17,6 +17,14 @@
 
 }
 
+@media only screen and (max-width: 375px) {
+    .table-width{
+        width: 100px;
+    }
+    nav
+
+}
+
 body {
     color: white;
 }
