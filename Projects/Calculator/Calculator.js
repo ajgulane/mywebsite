@@ -130,21 +130,85 @@ clear.addEventListener("click", function () {
 })
 
 division.addEventListener("click", function () {
+    if (number1 && number2 && operator == '/') {
+        number1 = parseInt(number1) / parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '*') {
+        number1 = parseInt(number1) * parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '-') {
+        number1 = parseInt(number1) - parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '+') {
+        number1 = parseInt(number1) + parseInt(number2)
+        number2 = ''
+    }
     displayBox.innerHTML += '/';
     operator = '/';
 })
 
 multi.addEventListener("click", function () {
+    if (number1 && number2 && operator == '/') {
+        number1 = parseInt(number1) / parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '*') {
+        number1 = parseInt(number1) * parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '-') {
+        number1 = parseInt(number1) - parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '+') {
+        number1 = parseInt(number1) + parseInt(number2)
+        number2 = ''
+    }
     displayBox.innerHTML += '*';
     operator = '*';
 })
 
 minus.addEventListener("click", function () {
+    if (number1 && number2 && operator == '/') {
+        number1 = parseInt(number1) / parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '*') {
+        number1 = parseInt(number1) * parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '-') {
+        number1 = parseInt(number1) - parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '+') {
+        number1 = parseInt(number1) + parseInt(number2)
+        number2 = ''
+    }
     displayBox.innerHTML += '-';
     operator = '-';
 })
 
 addition.addEventListener("click", function () {
+    if (number1 && number2 && operator == '/') {
+        number1 = parseInt(number1) / parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '*') {
+        number1 = parseInt(number1) * parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '-') {
+        number1 = parseInt(number1) - parseInt(number2)
+        number2 = ''
+    }
+    else if (number1 && number2 && operator == '+') {
+        number1 = parseInt(number1) + parseInt(number2)
+        number2 = ''
+    }
     displayBox.innerHTML += '+';
     operator = '+';
 })
