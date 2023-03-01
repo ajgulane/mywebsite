@@ -16,6 +16,7 @@ const point = document.querySelector('#point');
 const addition = document.querySelector('#addition');
 const equal = document.querySelector('#equal');
 const clear = document.querySelector('#clear');
+const back = document.querySelector('#back');
 
 let number1 = '';
 let number2 = '';
@@ -233,6 +234,21 @@ equal.addEventListener("click", function () {
     operator = '';
     number1 = displayBox.innerHTML;
     number2 = '';
+})
+
+back.addEventListener("click", function () { 
+    if (number1 && operator) {
+        number2 = number2.slice(0,-1)
+        displayBox.innerHTML = displayBox.innerHTML.slice(0, -1);
+        console.log("sliced")
+
+    }
+    else if (!number2) {
+        number1 = number1.slice(0,-1)
+        displayBox.innerHTML = displayBox.innerHTML.slice(0, -1);
+
+    }
+
 })
 
 
