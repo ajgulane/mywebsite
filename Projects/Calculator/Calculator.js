@@ -147,7 +147,7 @@ division.addEventListener("click", function () {
         number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
-    displayBox.innerHTML += '/';
+    displayBox.innerHTML += '÷';
     operator = '/';
 })
 
@@ -168,7 +168,7 @@ multi.addEventListener("click", function () {
         number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
-    displayBox.innerHTML += '*';
+    displayBox.innerHTML += 'x';
     operator = '*';
 })
 
@@ -245,6 +245,8 @@ back.addEventListener("click", function () {
     }
     else if (!number2) {
         number1 = number1.slice(0,-1)
+        displayBox.innerHTML = displayBox.innerHTML.slice(0, -1);
+        console.log("what")
         
 
     }
