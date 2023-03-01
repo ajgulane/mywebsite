@@ -132,19 +132,19 @@ clear.addEventListener("click", function () {
 
 division.addEventListener("click", function () {
     if (number1 && number2 && operator == '/') {
-        number1 = parseInt(number1) / parseInt(number2)
+        number1 = parseFloat(number1) / parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '*') {
-        number1 = parseInt(number1) * parseInt(number2)
+        number1 = parseFloat(number1) * parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '-') {
-        number1 = parseInt(number1) - parseInt(number2)
+        number1 = parseFloat(number1) - parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '+') {
-        number1 = parseInt(number1) + parseInt(number2)
+        number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
     displayBox.innerHTML += '/';
@@ -153,19 +153,19 @@ division.addEventListener("click", function () {
 
 multi.addEventListener("click", function () {
     if (number1 && number2 && operator == '/') {
-        number1 = parseInt(number1) / parseInt(number2)
+        number1 = parseFloat(number1) / parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '*') {
-        number1 = parseInt(number1) * parseInt(number2)
+        number1 = parseFloat(number1) * parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '-') {
-        number1 = parseInt(number1) - parseInt(number2)
+        number1 = parseFloat(number1) - parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '+') {
-        number1 = parseInt(number1) + parseInt(number2)
+        number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
     displayBox.innerHTML += '*';
@@ -174,19 +174,19 @@ multi.addEventListener("click", function () {
 
 minus.addEventListener("click", function () {
     if (number1 && number2 && operator == '/') {
-        number1 = parseInt(number1) / parseInt(number2)
+        number1 = parseFloat(number1) / parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '*') {
-        number1 = parseInt(number1) * parseInt(number2)
+        number1 = parseFloat(number1) * parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '-') {
-        number1 = parseInt(number1) - parseInt(number2)
+        number1 = parseFloat(number1) - parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '+') {
-        number1 = parseInt(number1) + parseInt(number2)
+        number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
     displayBox.innerHTML += '-';
@@ -195,19 +195,19 @@ minus.addEventListener("click", function () {
 
 addition.addEventListener("click", function () {
     if (number1 && number2 && operator == '/') {
-        number1 = parseInt(number1) / parseInt(number2)
+        number1 = parseFloat(number1) / parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '*') {
-        number1 = parseInt(number1) * parseInt(number2)
+        number1 = parseFloat(number1) * parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '-') {
-        number1 = parseInt(number1) - parseInt(number2)
+        number1 = parseFloat(number1) - parseFloat(number2)
         number2 = ''
     }
     else if (number1 && number2 && operator == '+') {
-        number1 = parseInt(number1) + parseInt(number2)
+        number1 = parseFloat(number1) + parseFloat(number2)
         number2 = ''
     }
     displayBox.innerHTML += '+';
@@ -215,20 +215,20 @@ addition.addEventListener("click", function () {
 })
 
 equal.addEventListener("click", function () {
-    console.log("num 1: "+ (parseInt(number1)))
-    console.log("num 2: "+ (parseInt(number2)))
+    console.log("num 1: "+ (parseFloat(number1)))
+    console.log("num 2: "+ (parseFloat(number2)))
     switch(operator) {
         case '/':
-            displayBox.innerHTML = parseInt(number1) / parseInt(number2)
+            displayBox.innerHTML = parseFloat(number1) / parseFloat(number2)
             break
         case '*':
-            displayBox.innerHTML = parseInt(number1) * parseInt(number2)
+            displayBox.innerHTML = parseFloat(number1) * parseFloat(number2)
             break
         case '-':
-            displayBox.innerHTML = parseInt(number1) - parseInt(number2)
+            displayBox.innerHTML = parseFloat(number1) - parseFloat(number2)
             break
         case '+':
-            displayBox.innerHTML = parseInt(number1) + parseInt(number2)
+            displayBox.innerHTML = parseFloat(number1) + parseFloat(number2)
             break
     }
     operator = '';
@@ -245,7 +245,7 @@ back.addEventListener("click", function () {
     }
     else if (!number2) {
         number1 = number1.slice(0,-1)
-        displayBox.innerHTML = displayBox.innerHTML.slice(0, -1);
+        
 
     }
 
