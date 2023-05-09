@@ -11,6 +11,7 @@ If you want to look at the old code for this project Simply clone the repo and c
 ```
 git checkout davinci-version
 ```
+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
 
 Otherwise, just use the default `main` branch and you'll be plugged into the official ChatGPT API!
 

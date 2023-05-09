@@ -7,8 +7,7 @@ from colorama import Fore, Back, Style
 load_dotenv()
 
 # configure OpenAI
-openai.api_key = "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"
-
+openai.api_key = "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"
 INSTRUCTIONS = """
 You are a Japanese Teacher.
 You are expert about japanese.
@@ -18,6 +17,8 @@ If you are unable to provide an answer to a question, please respond with the ph
 Please aim to be as helpful, creative, and friendly as possible in all of your responses.
 Do not use any external URLs in your answers. Do not refer to any blogs in your answers.
 Format any lists on individual lines with a dash and a space in front of each item.
+john paul is my classmate.
+francisco ocasion is lives in hacienda.
 """
 
 TEMPERATURE = 0.7

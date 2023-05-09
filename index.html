@@ -101,25 +101,33 @@
                 <div class="col">
                     <h1 class="my-2">Get in touch!</h1>
                     <p class="text-muted">Questions? dont be afraid to contact me</p>
-                    <form>
+                    <form action="https://formspree.io/f/xjvdlnyr" method="POST" name="contact-form" aria-required="true">
                         <div class=" form-floating mb-3">
-                            <input type="email" class="text-white bg-black form-control" id="exampleFormControlInput1"
+                            <input type="email" name="email" class="text-white bg-black form-control" id="exampleFormControlInput1"
                                 placeholder="name@example.com">
                             <label for="exampleFormControlInput1" class="form-label">Email address</label>
                         </div>
                         <div class=" form-floating mb-3">
-                            <input type="email" class="bg-black text-white form-control" id="exampleFormControlInput2"
+                            <input type="text" name="message" class="bg-black text-white form-control" id="exampleFormControlInput2"
                                 placeholder="Write a message">
                             <label for="exampleFormControlTextarea1" class="form-label">Write a message</label>
                         </div>
-                        <select class="bg-info text-black form-select my-2" aria-label="Default select example">
+                        <select name="services" class="bg-info text-black form-select my-2" aria-label="Default select example">
                             <option selected>Available Service</option>
                             <option value="1">Website Developement</option>
                             <option value="2">Application Developement</option>
                             <option value="3">Other</option>
                         </select>
-                        <button type="button" class="btn btn-danger btn-outline-light">Send</button>
+                        <button type="submit" class="btn btn-danger btn-outline-light">Send</button>
                 </div>
+
+                <script>
+                    function submitForm() {
+                    document.contact-form.submit();
+                    document.contact-form.reset();
+                    }
+                </script>
+        
                 </form>
             </div>
         </div>
